@@ -18,6 +18,12 @@ Dans cette activité, nous avons determiné le total des ventes dans chaque catego
 
 Dans cette activité nous avons effectué le même traitement que l'activité precedente sauf qu'on a ajouté un filtrage vertical (pour extraire sauf la catégorie "Costumer Electronics" aprés "Toys" ) au filtrage horizontal.
 
+# ACTIVIT2 4 :
+
+Dans cette activité nous avons calculé le max des ventes dans chaque magasin .Pour cela nous avons introduit :
+   -Un mapper qui extrait le couple (Magasin,Cost).
+   -Un reducer qui stocke le maximum de ventes de chaque magasin.
+
 # Activité 5 :
 Dans cette activité nous avons calculé le total des ventes et son nombre dans tous les magasins confendus pour cela, nous avons programmé:
   - Un mapper qui extrait le couple ("general",cost), general est une clé commune pour tous les magasins.
